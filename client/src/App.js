@@ -8,18 +8,17 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import HeaderComponent from './components/HeaderComponent';
 import FooterComponent from './components/FooterComponent';
+import JoinGame from './components/JoinGame';
 
 function App() {
   return (
     <main>
       <HeaderComponent />
-      
       <Routes>
-        {/* <Route path="/" element={<Homepage />} /> */}
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        {/* Routes to other pages will go here */}
+        <Route path="/joingame" element={<JoinGame />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <FooterComponent />
