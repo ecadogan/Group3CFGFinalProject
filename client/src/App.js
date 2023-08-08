@@ -53,6 +53,11 @@ const App = () => (
       hobby="Singing" 
       reason="I sing with a choir and it is incredibly uplifting and rewarding to make music with other people."
     />
+     <TeamMember 
+      name="Megan" 
+      hobby="House Renovations" 
+      reason="I like to take on the challenge of turning an old house into a wonderful living space."
+    />
     {/* Add more your details here as I have done above from the TeamMember part */}
   </div>
 );
