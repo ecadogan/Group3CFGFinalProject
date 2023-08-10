@@ -63,7 +63,7 @@ const App = () => (
       hobby="Filming" 
       reason="I enjoy creating. I enjoy expressing. And in the process of acting, I somehow discover more about myself. And it's beautiful."
      /> 
-            <TeamMember 
+      <TeamMember 
       name="Niki" 
       hobby="Drawing" 
       reason="I love drawing and doodling. I spend a lot of time in front of a computer, so putting pencil to paper is a nice escape from that"
