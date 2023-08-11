@@ -30,10 +30,11 @@
 // export default App;
 
 import React from 'react';
+import './App.css';
 
 const TeamMember = ({ name, hobby, reason }) => (
-  <div>
-    <h1>{name}</h1>
+  <div className='card'>
+    <h1 className='name'>{name}</h1>
     <h2>Favourite Hobby</h2>
     <p>{hobby}</p>
     <h2>Why I Enjoy It</h2>
@@ -42,7 +43,7 @@ const TeamMember = ({ name, hobby, reason }) => (
 );
 
 const App = () => (
-  <div>
+  <div className='flexbox'>
     <TeamMember 
       name="Eleri" 
       hobby="Baking" 

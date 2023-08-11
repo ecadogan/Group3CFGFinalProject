@@ -9,4 +9,4 @@ This project was created by Eleri Cadogan, Maddy Alabaster, Megan Lewis, Niki Ke
 
 ### Example of website running on localhost:
 
-![website running on localhost:3000](image to be added)
+![website running on localhost:3000](hwk2-screenshot.jpg)
