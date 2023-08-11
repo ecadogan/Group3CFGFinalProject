@@ -1,7 +1,7 @@
 # CFG Final Project - Fullstack 1 Group 3.
 ## Homework 2
 
-This project was created by Eleri Cadogan, Maddy Alabaster, Megan Lewis, Niki Kehoe and Kudzai Makusha
+This project was created by Eleri Cadogan, Maddy Alabaster, Megan Lewis, Niki Kehoe and Kudzai Makusha.
 
 [Homework documentation]( https://docs.google.com/document/d/1lfmnlSJt2-SEuxsHOi33-WHolVXIVuPxwi_PwdMfdYI/edit?usp=sharing)
 
