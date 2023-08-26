@@ -16,7 +16,7 @@ function QuizSlider({ showNextButton, swiperRef }) {
   //Used an except statement in case there is an error fetching questions. 
   async function fetchQuestionSet() {
     try {
-      const response = await axios.get('http://localhost:1234/api/questions/random');
+      const response = await axios.get('http://inmiy.us-east-1.elasticbeanstalk.com/api/questions/random');
       //The next line of code is storing the JSON in the setQuestionSet variable.
       setQuestionSet(response.data.questions);
       console.log('Question set from non-socket API:', questionSet)

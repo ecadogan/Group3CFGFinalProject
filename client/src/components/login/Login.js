@@ -24,7 +24,7 @@ function Login() {
   const handleLogin = () => {
     console.log("Login", usernameInput, password)
     axios.post(
-      "http://localhost:1234/login", 
+      "http://inmiy.us-east-1.elasticbeanstalk.com/login", 
       {
         username: usernameInput,
         password: password

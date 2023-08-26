@@ -21,7 +21,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:1234/register", formData)
+      const response = await axios.post("http://inmiy.us-east-1.elasticbeanstalk.com/register", formData)
 
       if (response.data.success) {
         alert('Registration successful!');

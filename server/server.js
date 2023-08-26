@@ -169,5 +169,14 @@ app.post('/register', async (req, res) => {
 //   res.json({ questions: questionSet });
 // });
 
+
+const path = require('path');
+app.use(express.static(path.join(__dirname, './build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, './build', 'index.html'));
+});
+
+
 const port = process.env.PORT || 1234;
 httpServer.listen(port, () => console.log(`Listening on port ${port}`));
