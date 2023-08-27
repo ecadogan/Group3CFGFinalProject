@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';  // Importing Redux's useDispatch hoo
 import { setUsername } from '../../redux/actions';  // Ensure path is correct!
 import './Login.css';
 import axios from "axios";
+import LoginSignup from '../loginSignup/LoginSignup';
 
 function Login() {
   const [usernameInput, setUsernameInput] = useState("");
@@ -39,12 +40,13 @@ function Login() {
         console.log(error);
         navigate('/loginUnsuccessful');// add error for unsuccessful login
       });
+      
   };
   const login = () => {};
   return (
     <div>
     <div className="d-flex justify-content-center align-items-start">
-      <div className="signupBorder mt-3" >
+      <div className="signupBorder flex-fill" >
         <div className="text-center">
           <label className='LoginTitle'>Log in to Play!</label>
         </div>
@@ -72,7 +74,7 @@ function Login() {
 
         <div className="text-center">
           <button className="underButton" onClick={login}>Forgot Password</button>
-          <button className="underButton" onClick={login}>Create Account</button>
+          
         </div>
       </div>
     </div>
